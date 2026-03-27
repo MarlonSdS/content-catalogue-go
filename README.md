@@ -25,3 +25,23 @@ complementares para busca e filtragem. Este é um esboço de como a tabela princ
 | created_at  | timestamp, auto                                            |
 | updated_at  | timestamp                                                  |
 | deleted_at  | timestamp                                                  |
+
+## Estrutura de pastas do projeto
+├── cmd/
+│   └── server/
+│       └── main.go          # Ponto de entrada 
+├── internal/                # Código privado 
+│   ├── controller/          # Handlers do Gin 
+│   ├── service/             # Regras de negócio 
+│   ├── repository/          # Acesso a dados 
+│   ├── model/               # Estruturas de dados e entidades
+│   └── routes/              # Configuração das rotas do Gin
+├── pkg/                     # Código utilitário compartilhado 
+├── configs/                 # Arquivos de configuração 
+├── deployments/             # Arquivos extras de deploy
+├── scripts/                 # Shell scripts para automação
+├── .env                     # Variáveis de ambiente
+├── Dockerfile               # Configuração da imagem Go
+├── docker-compose.yml       # Orquestração 
+├── go.mod
+└── go.sum
