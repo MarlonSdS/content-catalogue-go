@@ -27,6 +27,7 @@ complementares para busca e filtragem. Este é um esboço de como a tabela princ
 | deleted_at  | timestamp                                                  |
 
 ## Estrutura de pastas do projeto
+```
 ├── cmd/
 │   └── server/
 │       └── main.go          # Ponto de entrada 
@@ -45,3 +46,4 @@ complementares para busca e filtragem. Este é um esboço de como a tabela princ
 ├── docker-compose.yml       # Orquestração 
 ├── go.mod
 └── go.sum
+```
